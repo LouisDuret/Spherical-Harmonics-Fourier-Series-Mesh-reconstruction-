@@ -1,0 +1,21 @@
+[package]
+name = "harmomesh"
+version = "0.1.0"
+edition = "2021"
+description = "Reconstruire un mesh 3D avec des séries de Fourier et des harmoniques sphériques"
+
+[dependencies]
+rayon = "1"
+rustfft = "6"
+serde_json = "1"
+gltf = "1"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+eframe = { version = "0.31", default-features = false, features = ["glow", "default_fonts"] }
+rfd = "0.15"
+png = "0.17"
+
+[profile.dev]
+opt-level = 2
+
+[profile.release]
+opt-level = 3

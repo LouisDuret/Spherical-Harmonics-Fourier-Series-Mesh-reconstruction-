@@ -1,0 +1,5 @@
+/target
+# Modeles tiers volumineux (Stanford 3D Scanning Repository), a telecharger separement
+/dragon_recon/
+/dragon_recon.tar.gz
+/stanford-bunny.obj
